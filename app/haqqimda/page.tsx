@@ -1,6 +1,11 @@
+import HeroSection from "../components/HeroSection";
+
 export default function HaqqimdaPage() {
-    return <main className="flex min-h-screen flex-col bg-[#121212] ">
-        <h1 className="text-white"> Portfolio Website  </h1>
+    return <main className="mx-auto flex flex-col justify-center items-center  min-h-screen  bg-[#121212]">
+        
+
+        <HeroSection />    
+
 
     </main>
 
